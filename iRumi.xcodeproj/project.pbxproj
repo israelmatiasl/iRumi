@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D77E6175D5CF704A6E1980 /* Pods_iRumi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5786A1975F96A6E1A60BDC /* Pods_iRumi.framework */; };
 		F034B30522C030480044951F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034B30422C030480044951F /* AppDelegate.swift */; };
 		F034B30722C030480044951F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034B30622C030480044951F /* ViewController.swift */; };
 		F034B30A22C030480044951F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F034B30822C030480044951F /* Main.storyboard */; };
 		F034B30C22C030490044951F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F034B30B22C030490044951F /* Assets.xcassets */; };
 		F034B30F22C030490044951F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F034B30D22C030490044951F /* LaunchScreen.storyboard */; };
+		F034B31D22C03E300044951F /* Roomer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F034B31C22C03E300044951F /* Roomer.storyboard */; };
+		F034B31F22C03E630044951F /* Owner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F034B31E22C03E630044951F /* Owner.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40B88256ADF993D14E82587A /* Pods-iRumi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRumi.debug.xcconfig"; path = "Target Support Files/Pods-iRumi/Pods-iRumi.debug.xcconfig"; sourceTree = "<group>"; };
+		6253C2DD3C49C9E0195F3802 /* Pods-iRumi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRumi.release.xcconfig"; path = "Target Support Files/Pods-iRumi/Pods-iRumi.release.xcconfig"; sourceTree = "<group>"; };
+		BE5786A1975F96A6E1A60BDC /* Pods_iRumi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRumi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F034B30122C030480044951F /* iRumi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRumi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F034B30422C030480044951F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F034B30622C030480044951F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		F034B30B22C030490044951F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F034B30E22C030490044951F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F034B31022C030490044951F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F034B31C22C03E300044951F /* Roomer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Roomer.storyboard; sourceTree = "<group>"; };
+		F034B31E22C03E630044951F /* Owner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Owner.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D77E6175D5CF704A6E1980 /* Pods_iRumi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CBB298A730DB22936B78B0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE5786A1975F96A6E1A60BDC /* Pods_iRumi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F034B2F822C030480044951F = {
 			isa = PBXGroup;
 			children = (
 				F034B30322C030480044951F /* iRumi */,
 				F034B30222C030480044951F /* Products */,
+				F7A04FBEFBF32463A633E1A4 /* Pods */,
+				6CBB298A730DB22936B78B0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,65 @@
 		F034B30322C030480044951F /* iRumi */ = {
 			isa = PBXGroup;
 			children = (
-				F034B30422C030480044951F /* AppDelegate.swift */,
-				F034B30622C030480044951F /* ViewController.swift */,
-				F034B30822C030480044951F /* Main.storyboard */,
-				F034B30B22C030490044951F /* Assets.xcassets */,
-				F034B30D22C030490044951F /* LaunchScreen.storyboard */,
+				F034B31B22C03D700044951F /* Resources */,
+				F034B31822C03B5C0044951F /* Network */,
+				F034B31722C039670044951F /* Main */,
+				F034B31622C038930044951F /* ViewController */,
+				F034B31922C03BC90044951F /* Models */,
 				F034B31022C030490044951F /* Info.plist */,
 			);
 			path = iRumi;
+			sourceTree = "<group>";
+		};
+		F034B31622C038930044951F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F034B30622C030480044951F /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F034B31722C039670044951F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F034B30422C030480044951F /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F034B31822C03B5C0044951F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F034B31922C03BC90044951F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F034B31B22C03D700044951F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F034B30822C030480044951F /* Main.storyboard */,
+				F034B30B22C030490044951F /* Assets.xcassets */,
+				F034B30D22C030490044951F /* LaunchScreen.storyboard */,
+				F034B31C22C03E300044951F /* Roomer.storyboard */,
+				F034B31E22C03E630044951F /* Owner.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7A04FBEFBF32463A633E1A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40B88256ADF993D14E82587A /* Pods-iRumi.debug.xcconfig */,
+				6253C2DD3C49C9E0195F3802 /* Pods-iRumi.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F034B31322C030490044951F /* Build configuration list for PBXNativeTarget "iRumi" */;
 			buildPhases = (
+				F3B1C56EAB2C8AAC81924DAF /* [CP] Check Pods Manifest.lock */,
 				F034B2FD22C030480044951F /* Sources */,
 				F034B2FE22C030480044951F /* Frameworks */,
 				F034B2FF22C030480044951F /* Resources */,
+				768AD7EE17EB09A00B8F247D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +194,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F034B31D22C03E300044951F /* Roomer.storyboard in Resources */,
 				F034B30F22C030490044951F /* LaunchScreen.storyboard in Resources */,
 				F034B30C22C030490044951F /* Assets.xcassets in Resources */,
 				F034B30A22C030480044951F /* Main.storyboard in Resources */,
+				F034B31F22C03E630044951F /* Owner.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		768AD7EE17EB09A00B8F247D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iRumi/Pods-iRumi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iRumi/Pods-iRumi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B1C56EAB2C8AAC81924DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iRumi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F034B2FD22C030480044951F /* Sources */ = {
@@ -280,6 +403,7 @@
 		};
 		F034B31422C030490044951F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B88256ADF993D14E82587A /* Pods-iRumi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +422,7 @@
 		};
 		F034B31522C030490044951F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6253C2DD3C49C9E0195F3802 /* Pods-iRumi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
