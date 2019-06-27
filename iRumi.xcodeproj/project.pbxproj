@@ -15,6 +15,25 @@
 		F034B30F22C030490044951F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F034B30D22C030490044951F /* LaunchScreen.storyboard */; };
 		F034B31D22C03E300044951F /* Roomer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F034B31C22C03E300044951F /* Roomer.storyboard */; };
 		F034B31F22C03E630044951F /* Owner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F034B31E22C03E630044951F /* Owner.storyboard */; };
+		F03F939322C3EDDE0084BFD2 /* GenericPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F939222C3EDDE0084BFD2 /* GenericPicker.swift */; };
+		F03F939722C3EF370084BFD2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F939622C3EF370084BFD2 /* SignUpViewController.swift */; };
+		F03F939922C3EF660084BFD2 /* ChooseRoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F939822C3EF660084BFD2 /* ChooseRoleViewController.swift */; };
+		F03F939C22C451910084BFD2 /* AccountApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F939B22C451910084BFD2 /* AccountApi.swift */; };
+		F03F93A022C453880084BFD2 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F939F22C453880084BFD2 /* LoginRequest.swift */; };
+		F03F93A222C453BE0084BFD2 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93A122C453BE0084BFD2 /* RegisterRequest.swift */; };
+		F03F93A422C453FE0084BFD2 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93A322C453FE0084BFD2 /* LoginResponse.swift */; };
+		F03F93A622C454860084BFD2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93A522C454860084BFD2 /* Profile.swift */; };
+		F03F93A822C454CD0084BFD2 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93A722C454CD0084BFD2 /* RegisterResponse.swift */; };
+		F03F93AC22C4583B0084BFD2 /* TabBarOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93AB22C4583B0084BFD2 /* TabBarOwnerViewController.swift */; };
+		F03F93AE22C4584F0084BFD2 /* TabBarRoomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93AD22C4584F0084BFD2 /* TabBarRoomerViewController.swift */; };
+		F03F93B022C464CD0084BFD2 /* DefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93AF22C464CD0084BFD2 /* DefaultKeys.swift */; };
+		F03F93B222C466250084BFD2 /* GroupsOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93B122C466250084BFD2 /* GroupsOwnerViewController.swift */; };
+		F03F93B422C467780084BFD2 /* GroupsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93B322C467780084BFD2 /* GroupsCollectionViewCell.swift */; };
+		F03F93B622C46C3D0084BFD2 /* GroupApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93B522C46C3D0084BFD2 /* GroupApi.swift */; };
+		F03F93B822C46CB20084BFD2 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93B722C46CB20084BFD2 /* Group.swift */; };
+		F03F93BA22C46D050084BFD2 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93B922C46D050084BFD2 /* Participant.swift */; };
+		F03F93BC22C46D840084BFD2 /* GroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93BB22C46D840084BFD2 /* GroupRequest.swift */; };
+		F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +49,25 @@
 		F034B31022C030490044951F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F034B31C22C03E300044951F /* Roomer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Roomer.storyboard; sourceTree = "<group>"; };
 		F034B31E22C03E630044951F /* Owner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Owner.storyboard; sourceTree = "<group>"; };
+		F03F939222C3EDDE0084BFD2 /* GenericPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPicker.swift; sourceTree = "<group>"; };
+		F03F939622C3EF370084BFD2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F03F939822C3EF660084BFD2 /* ChooseRoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRoleViewController.swift; sourceTree = "<group>"; };
+		F03F939B22C451910084BFD2 /* AccountApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountApi.swift; sourceTree = "<group>"; };
+		F03F939F22C453880084BFD2 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		F03F93A122C453BE0084BFD2 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
+		F03F93A322C453FE0084BFD2 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		F03F93A522C454860084BFD2 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F03F93A722C454CD0084BFD2 /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		F03F93AB22C4583B0084BFD2 /* TabBarOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarOwnerViewController.swift; sourceTree = "<group>"; };
+		F03F93AD22C4584F0084BFD2 /* TabBarRoomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRoomerViewController.swift; sourceTree = "<group>"; };
+		F03F93AF22C464CD0084BFD2 /* DefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultKeys.swift; sourceTree = "<group>"; };
+		F03F93B122C466250084BFD2 /* GroupsOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsOwnerViewController.swift; sourceTree = "<group>"; };
+		F03F93B322C467780084BFD2 /* GroupsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCollectionViewCell.swift; sourceTree = "<group>"; };
+		F03F93B522C46C3D0084BFD2 /* GroupApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupApi.swift; sourceTree = "<group>"; };
+		F03F93B722C46CB20084BFD2 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		F03F93B922C46D050084BFD2 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		F03F93BB22C46D840084BFD2 /* GroupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRequest.swift; sourceTree = "<group>"; };
+		F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoOwnerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +111,7 @@
 		F034B30322C030480044951F /* iRumi */ = {
 			isa = PBXGroup;
 			children = (
+				F03F939122C3ED3B0084BFD2 /* Utils */,
 				F034B31B22C03D700044951F /* Resources */,
 				F034B31822C03B5C0044951F /* Network */,
 				F034B31722C039670044951F /* Main */,
@@ -86,6 +125,9 @@
 		F034B31622C038930044951F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F03F93AA22C4574D0084BFD2 /* Owner */,
+				F03F93A922C457280084BFD2 /* Roomer */,
+				F03F939422C3EF0B0084BFD2 /* Account */,
 				F034B30622C030480044951F /* ViewController.swift */,
 			);
 			path = ViewController;
@@ -102,6 +144,10 @@
 		F034B31822C03B5C0044951F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				F03F939E22C451F00084BFD2 /* Response */,
+				F03F939D22C451EA0084BFD2 /* Request */,
+				F03F939B22C451910084BFD2 /* AccountApi.swift */,
+				F03F93B522C46C3D0084BFD2 /* GroupApi.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -109,6 +155,9 @@
 		F034B31922C03BC90044951F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F03F93A522C454860084BFD2 /* Profile.swift */,
+				F03F93B722C46CB20084BFD2 /* Group.swift */,
+				F03F93B922C46D050084BFD2 /* Participant.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -123,6 +172,62 @@
 				F034B31E22C03E630044951F /* Owner.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F03F939122C3ED3B0084BFD2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F03F939222C3EDDE0084BFD2 /* GenericPicker.swift */,
+				F03F93AF22C464CD0084BFD2 /* DefaultKeys.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F03F939422C3EF0B0084BFD2 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F03F939622C3EF370084BFD2 /* SignUpViewController.swift */,
+				F03F939822C3EF660084BFD2 /* ChooseRoleViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		F03F939D22C451EA0084BFD2 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F03F939F22C453880084BFD2 /* LoginRequest.swift */,
+				F03F93A122C453BE0084BFD2 /* RegisterRequest.swift */,
+				F03F93BB22C46D840084BFD2 /* GroupRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F03F939E22C451F00084BFD2 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F03F93A322C453FE0084BFD2 /* LoginResponse.swift */,
+				F03F93A722C454CD0084BFD2 /* RegisterResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F03F93A922C457280084BFD2 /* Roomer */ = {
+			isa = PBXGroup;
+			children = (
+				F03F93AD22C4584F0084BFD2 /* TabBarRoomerViewController.swift */,
+			);
+			path = Roomer;
+			sourceTree = "<group>";
+		};
+		F03F93AA22C4574D0084BFD2 /* Owner */ = {
+			isa = PBXGroup;
+			children = (
+				F03F93AB22C4583B0084BFD2 /* TabBarOwnerViewController.swift */,
+				F03F93B122C466250084BFD2 /* GroupsOwnerViewController.swift */,
+				F03F93B322C467780084BFD2 /* GroupsCollectionViewCell.swift */,
+				F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */,
+			);
+			path = Owner;
 			sourceTree = "<group>";
 		};
 		F7A04FBEFBF32463A633E1A4 /* Pods */ = {
@@ -258,7 +363,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03F93B422C467780084BFD2 /* GroupsCollectionViewCell.swift in Sources */,
+				F03F93AE22C4584F0084BFD2 /* TabBarRoomerViewController.swift in Sources */,
+				F03F93B022C464CD0084BFD2 /* DefaultKeys.swift in Sources */,
 				F034B30722C030480044951F /* ViewController.swift in Sources */,
+				F03F93A822C454CD0084BFD2 /* RegisterResponse.swift in Sources */,
+				F03F93BA22C46D050084BFD2 /* Participant.swift in Sources */,
+				F03F93A622C454860084BFD2 /* Profile.swift in Sources */,
+				F03F93BC22C46D840084BFD2 /* GroupRequest.swift in Sources */,
+				F03F939322C3EDDE0084BFD2 /* GenericPicker.swift in Sources */,
+				F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */,
+				F03F93AC22C4583B0084BFD2 /* TabBarOwnerViewController.swift in Sources */,
+				F03F93A422C453FE0084BFD2 /* LoginResponse.swift in Sources */,
+				F03F93B822C46CB20084BFD2 /* Group.swift in Sources */,
+				F03F939722C3EF370084BFD2 /* SignUpViewController.swift in Sources */,
+				F03F93B222C466250084BFD2 /* GroupsOwnerViewController.swift in Sources */,
+				F03F939922C3EF660084BFD2 /* ChooseRoleViewController.swift in Sources */,
+				F03F939C22C451910084BFD2 /* AccountApi.swift in Sources */,
+				F03F93A022C453880084BFD2 /* LoginRequest.swift in Sources */,
+				F03F93A222C453BE0084BFD2 /* RegisterRequest.swift in Sources */,
+				F03F93B622C46C3D0084BFD2 /* GroupApi.swift in Sources */,
 				F034B30522C030480044951F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
