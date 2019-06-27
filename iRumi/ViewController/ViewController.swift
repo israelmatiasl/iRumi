@@ -31,8 +31,8 @@ class ViewController: UIViewController {
 
     @IBAction func signIn(_ sender: UIButton) {
         let loginRequest = LoginRequest(
-            email: "roomate01@gmail.com",// emailTextField.text ?? "israelmatiasl@gmail.com",
-            password: "123"//passwordTextField.text ?? "12345678"
+            email: emailTextField.text ?? "israelmatiasl@gmail.com",
+            password: passwordTextField.text ?? "12345678"
         )
         
         AccountApi.signIn(loginRequest: loginRequest, responseHandler: handleResponse, errorHandler: handleError)

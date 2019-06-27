@@ -16,7 +16,7 @@ class RoomViewController: UIViewController {
     @IBOutlet weak var priceLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        tituloLabel.text = room!.title
+//        tituloLabel.text = room!.title
         priceLabel.text = String(room!.price)
     }
     
