@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		00D77E6175D5CF704A6E1980 /* Pods_iRumi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5786A1975F96A6E1A60BDC /* Pods_iRumi.framework */; };
+		6000A05D22C4E3A100876980 /* RumiApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000A05C22C4E3A100876980 /* RumiApi.swift */; };
+		6000A05F22C4E3F200876980 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000A05E22C4E3F200876980 /* Room.swift */; };
+		6000A06122C4E42100876980 /* RoomsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000A06022C4E42100876980 /* RoomsResponse.swift */; };
+		6000A06322C4E44B00876980 /* RoomRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000A06222C4E44B00876980 /* RoomRequest.swift */; };
+		6000A06522C4E4C100876980 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000A06422C4E4C100876980 /* RoomsViewController.swift */; };
+		6000A06722C4E4F700876980 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000A06622C4E4F700876980 /* RoomViewController.swift */; };
+		6000A06922C4E52D00876980 /* AddRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000A06822C4E52D00876980 /* AddRoomViewController.swift */; };
+		6096EA1022C4F8FA00750108 /* RoomsRoomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6096EA0F22C4F8FA00750108 /* RoomsRoomerViewController.swift */; };
+		6096EA1222C4F91D00750108 /* RoomRoomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6096EA1122C4F91D00750108 /* RoomRoomerViewController.swift */; };
 		F034B30522C030480044951F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034B30422C030480044951F /* AppDelegate.swift */; };
 		F034B30722C030480044951F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034B30622C030480044951F /* ViewController.swift */; };
 		F034B30A22C030480044951F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F034B30822C030480044951F /* Main.storyboard */; };
@@ -60,6 +69,15 @@
 
 /* Begin PBXFileReference section */
 		40B88256ADF993D14E82587A /* Pods-iRumi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRumi.debug.xcconfig"; path = "Target Support Files/Pods-iRumi/Pods-iRumi.debug.xcconfig"; sourceTree = "<group>"; };
+		6000A05C22C4E3A100876980 /* RumiApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumiApi.swift; sourceTree = "<group>"; };
+		6000A05E22C4E3F200876980 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		6000A06022C4E42100876980 /* RoomsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsResponse.swift; sourceTree = "<group>"; };
+		6000A06222C4E44B00876980 /* RoomRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRequest.swift; sourceTree = "<group>"; };
+		6000A06422C4E4C100876980 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		6000A06622C4E4F700876980 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		6000A06822C4E52D00876980 /* AddRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomViewController.swift; sourceTree = "<group>"; };
+		6096EA0F22C4F8FA00750108 /* RoomsRoomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsRoomerViewController.swift; sourceTree = "<group>"; };
+		6096EA1122C4F91D00750108 /* RoomRoomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRoomerViewController.swift; sourceTree = "<group>"; };
 		6253C2DD3C49C9E0195F3802 /* Pods-iRumi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRumi.release.xcconfig"; path = "Target Support Files/Pods-iRumi/Pods-iRumi.release.xcconfig"; sourceTree = "<group>"; };
 		BE5786A1975F96A6E1A60BDC /* Pods_iRumi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRumi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F034B30122C030480044951F /* iRumi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRumi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +211,7 @@
 				F03F939B22C451910084BFD2 /* AccountApi.swift */,
 				F03F93B522C46C3D0084BFD2 /* GroupApi.swift */,
 				F03F93CC22C4C5B10084BFD2 /* TaskApi.swift */,
+				6000A05C22C4E3A100876980 /* RumiApi.swift */,
 				F03F93CE22C4C9F20084BFD2 /* IncidenceApi.swift */,
 				F03F93DA22C4CC3B0084BFD2 /* OwnerIncidenceApi.swift */,
 			);
@@ -206,7 +225,6 @@
 				F03F93B722C46CB20084BFD2 /* Group.swift */,
 				F03F93B922C46D050084BFD2 /* Participant.swift */,
 				F03F93C822C4BB3E0084BFD2 /* Task.swift */,
-				F03F93D222C4CAC80084BFD2 /* Incidence.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,8 +266,6 @@
 				F03F93A122C453BE0084BFD2 /* RegisterRequest.swift */,
 				F03F93BB22C46D840084BFD2 /* GroupRequest.swift */,
 				F03F93CA22C4C47F0084BFD2 /* TaskRequest.swift */,
-				F03F93D822C4CBBB0084BFD2 /* IncidenceRequest.swift */,
-				F03F93DC22C4CCC40084BFD2 /* IncidenceUpdateRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -259,9 +275,6 @@
 			children = (
 				F03F93A322C453FE0084BFD2 /* LoginResponse.swift */,
 				F03F93A722C454CD0084BFD2 /* RegisterResponse.swift */,
-				F03F93D022C4CA9D0084BFD2 /* IncidencesResponse.swift */,
-				F03F93D422C4CB1B0084BFD2 /* ParticipantsResponse.swift */,
-				F03F93D622C4CB560084BFD2 /* GroupsResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -272,10 +285,6 @@
 				F03F93AD22C4584F0084BFD2 /* TabBarRoomerViewController.swift */,
 				F03F93C422C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift */,
 				F03F93C622C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift */,
-				F03F93E422C4EAF60084BFD2 /* IncidencesViewController.swift */,
-				F03F93E622C4EBEE0084BFD2 /* IncidenceViewController.swift */,
-				F03F93E822C4EC500084BFD2 /* IncidenceCell.swift */,
-				F03F93EA22C4EE2C0084BFD2 /* CreateIncidenceViewController.swift */,
 			);
 			path = Roomer;
 			sourceTree = "<group>";
@@ -289,9 +298,6 @@
 				F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */,
 				F03F93BF22C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift */,
 				F03F93C222C480490084BFD2 /* GroupCreateViewController.swift */,
-				F03F93DE22C4CDBA0084BFD2 /* OwnerIncidenceCell.swift */,
-				F03F93E022C4D34A0084BFD2 /* OwnerIncidencesViewController.swift */,
-				F03F93E222C4DEB70084BFD2 /* OwnerIncidenceViewController.swift */,
 			);
 			path = Owner;
 			sourceTree = "<group>";
@@ -440,29 +446,33 @@
 				F03F93BA22C46D050084BFD2 /* Participant.swift in Sources */,
 				F03F93E322C4DEB70084BFD2 /* OwnerIncidenceViewController.swift in Sources */,
 				F03F93C722C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift in Sources */,
+				6096EA1222C4F91D00750108 /* RoomRoomerViewController.swift in Sources */,
+				6000A06522C4E4C100876980 /* RoomsViewController.swift in Sources */,
 				F03F93A622C454860084BFD2 /* Profile.swift in Sources */,
 				F03F93C922C4BB3E0084BFD2 /* Task.swift in Sources */,
 				F03F93D322C4CAC80084BFD2 /* Incidence.swift in Sources */,
 				F03F93BC22C46D840084BFD2 /* GroupRequest.swift in Sources */,
 				F03F939322C3EDDE0084BFD2 /* GenericPicker.swift in Sources */,
 				F03F93CB22C4C47F0084BFD2 /* TaskRequest.swift in Sources */,
-				F03F93CF22C4C9F20084BFD2 /* IncidenceApi.swift in Sources */,
-				F03F93D122C4CA9D0084BFD2 /* IncidencesResponse.swift in Sources */,
 				F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */,
 				F03F93DD22C4CCC40084BFD2 /* IncidenceUpdateRequest.swift in Sources */,
 				F03F93DB22C4CC3B0084BFD2 /* OwnerIncidenceApi.swift in Sources */,
 				F03F93CD22C4C5B10084BFD2 /* TaskApi.swift in Sources */,
+				6000A05F22C4E3F200876980 /* Room.swift in Sources */,
 				F03F93C522C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift in Sources */,
 				F03F93C322C480490084BFD2 /* GroupCreateViewController.swift in Sources */,
 				F03F93E922C4EC500084BFD2 /* IncidenceCell.swift in Sources */,
 				F03F93AC22C4583B0084BFD2 /* TabBarOwnerViewController.swift in Sources */,
+				6000A06322C4E44B00876980 /* RoomRequest.swift in Sources */,
+				6096EA1022C4F8FA00750108 /* RoomsRoomerViewController.swift in Sources */,
 				F03F93A422C453FE0084BFD2 /* LoginResponse.swift in Sources */,
 				F03F93B822C46CB20084BFD2 /* Group.swift in Sources */,
 				F03F93D522C4CB1B0084BFD2 /* ParticipantsResponse.swift in Sources */,
 				F03F939722C3EF370084BFD2 /* SignUpViewController.swift in Sources */,
 				F03F93B222C466250084BFD2 /* GroupsOwnerViewController.swift in Sources */,
+				6000A05D22C4E3A100876980 /* RumiApi.swift in Sources */,
+				6000A06122C4E42100876980 /* RoomsResponse.swift in Sources */,
 				F03F939922C3EF660084BFD2 /* ChooseRoleViewController.swift in Sources */,
-				F03F93E122C4D34A0084BFD2 /* OwnerIncidencesViewController.swift in Sources */,
 				F03F939C22C451910084BFD2 /* AccountApi.swift in Sources */,
 				F03F93DF22C4CDBA0084BFD2 /* OwnerIncidenceCell.swift in Sources */,
 				F03F93A022C453880084BFD2 /* LoginRequest.swift in Sources */,
