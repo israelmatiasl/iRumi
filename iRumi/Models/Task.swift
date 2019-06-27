@@ -1,4 +1,4 @@
-//
+﻿//
 //  Task.swift
 //  iRumi
 //
@@ -8,3 +8,11 @@
 
 import Foundation
 
+struct Task: Codable {
+    var accountId: String?
+    var groupId: String?
+    var title: String?
+    var description: String?
+    var responsible: Array<String>
+    var status: String?
+}
