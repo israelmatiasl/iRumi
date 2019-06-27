@@ -155,7 +155,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cgE-qb-K8T">
-                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="564"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="RbJ-7q-2ss">
@@ -172,7 +172,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="200" height="230"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group" translatesAutoresizingMaskIntoConstraints="NO" id="3g8-Hm-Vv0">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group-2" translatesAutoresizingMaskIntoConstraints="NO" id="3g8-Hm-Vv0">
                                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -195,6 +195,14 @@
                                     <outlet property="delegate" destination="lkT-XZ-oDm" id="azt-re-ed4"/>
                                 </connections>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3B-6e-JFr">
+                                <rect key="frame" x="0.0" y="636" width="414" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="NUEVO GRUPO"/>
+                                <connections>
+                                    <segue destination="kMB-Ka-H9n" kind="show" id="VPc-Jy-6UY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="oiv-n5-0xi"/>
@@ -209,6 +217,114 @@
             </objects>
             <point key="canvasLocation" x="1260.8695652173915" y="-1041.0326086956522"/>
         </scene>
+        <!--Group Create View Controller-->
+        <scene sceneID="QjX-1d-AWP">
+            <objects>
+                <viewController id="kMB-Ka-H9n" customClass="GroupCreateViewController" customModule="iRumi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OPO-T5-z2g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-image" translatesAutoresizingMaskIntoConstraints="NO" id="aFg-hL-qi6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <color key="backgroundColor" red="0.75789181472081224" green="0.29118787217368941" blue="0.0876618188161985" alpha="0.40202268835616439" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nuevo Grupo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huk-f2-RUg">
+                                <rect key="frame" x="16" y="84" width="382" height="0.0"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Fb1-5N-5RB">
+                                <rect key="frame" x="16" y="114" width="382" height="69"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del grupo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UbM-tW-zRl">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
+                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombres" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="oK7-a4-b4O">
+                                        <rect key="frame" x="0.0" y="29" width="382" height="40"/>
+                                        <color key="backgroundColor" red="0.64653394669999997" green="0.64653394669999997" blue="0.64653394669999997" alpha="0.59685359589999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="9Ot-Cp-NFN"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="light" returnKeyType="next" textContentType="name"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="UbM-tW-zRl" firstAttribute="top" secondItem="Fb1-5N-5RB" secondAttribute="top" id="0AE-nB-UVl"/>
+                                    <constraint firstItem="UbM-tW-zRl" firstAttribute="leading" secondItem="Fb1-5N-5RB" secondAttribute="leading" id="Eep-Um-FMI"/>
+                                    <constraint firstItem="oK7-a4-b4O" firstAttribute="leading" secondItem="Fb1-5N-5RB" secondAttribute="leading" id="TCE-Y9-Ydj"/>
+                                    <constraint firstAttribute="trailing" secondItem="UbM-tW-zRl" secondAttribute="trailing" id="TE5-aG-EW4"/>
+                                    <constraint firstAttribute="bottom" secondItem="oK7-a4-b4O" secondAttribute="bottom" id="nKI-fR-jXr"/>
+                                    <constraint firstAttribute="trailing" secondItem="oK7-a4-b4O" secondAttribute="trailing" id="nKu-Y1-lsk"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Cw1-gR-9HU">
+                                <rect key="frame" x="16" y="203" width="382" height="364"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Integrantes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dd-Z6-Gx8">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
+                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fz7-2o-f1o">
+                                        <rect key="frame" x="0.0" y="29" width="382" height="335"/>
+                                        <color key="backgroundColor" red="0.6207368338" green="0.6207368338" blue="0.6207368338" alpha="0.59917059080000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Fz7-2o-f1o" secondAttribute="bottom" id="0a2-bd-q75"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fz7-2o-f1o" secondAttribute="trailing" id="71x-MO-td0"/>
+                                    <constraint firstAttribute="trailing" secondItem="0dd-Z6-Gx8" secondAttribute="trailing" id="QHp-wA-XL8"/>
+                                    <constraint firstItem="0dd-Z6-Gx8" firstAttribute="top" secondItem="Cw1-gR-9HU" secondAttribute="top" id="alX-Iv-Tw3"/>
+                                    <constraint firstItem="Fz7-2o-f1o" firstAttribute="leading" secondItem="Cw1-gR-9HU" secondAttribute="leading" id="j7A-X1-u0u"/>
+                                    <constraint firstItem="0dd-Z6-Gx8" firstAttribute="leading" secondItem="Cw1-gR-9HU" secondAttribute="leading" id="pPh-bN-J9c"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oa1-nW-QMA">
+                                <rect key="frame" x="16" y="616" width="382" height="21"/>
+                                <color key="backgroundColor" red="0.8519194162" green="0.5500007764" blue="0.19344491050000001" alpha="0.78148009419999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="24"/>
+                                <state key="normal" title="REGISTRARME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="huk-f2-RUg" firstAttribute="top" secondItem="wKB-Kl-vgB" secondAttribute="top" constant="20" id="0xQ-Ye-usu"/>
+                            <constraint firstItem="Cw1-gR-9HU" firstAttribute="top" secondItem="Fb1-5N-5RB" secondAttribute="bottom" constant="20" id="1oD-Kh-71V"/>
+                            <constraint firstItem="aFg-hL-qi6" firstAttribute="leading" secondItem="OPO-T5-z2g" secondAttribute="leading" id="39H-4v-7FQ"/>
+                            <constraint firstItem="Cw1-gR-9HU" firstAttribute="centerX" secondItem="aFg-hL-qi6" secondAttribute="centerX" id="5gM-8H-rr6"/>
+                            <constraint firstItem="wKB-Kl-vgB" firstAttribute="trailing" secondItem="Fb1-5N-5RB" secondAttribute="trailing" constant="16" id="5tz-mH-h4Q"/>
+                            <constraint firstItem="wKB-Kl-vgB" firstAttribute="bottom" secondItem="Oa1-nW-QMA" secondAttribute="bottom" constant="50" id="OJY-qp-4Tk"/>
+                            <constraint firstItem="Oa1-nW-QMA" firstAttribute="top" secondItem="Cw1-gR-9HU" secondAttribute="bottom" constant="49" id="RYW-nP-2i3"/>
+                            <constraint firstItem="Oa1-nW-QMA" firstAttribute="leading" secondItem="wKB-Kl-vgB" secondAttribute="leading" constant="16" id="X5T-Dr-PYF"/>
+                            <constraint firstItem="Cw1-gR-9HU" firstAttribute="leading" secondItem="wKB-Kl-vgB" secondAttribute="leading" constant="16" id="XaL-Mn-jad"/>
+                            <constraint firstItem="Fb1-5N-5RB" firstAttribute="top" secondItem="huk-f2-RUg" secondAttribute="bottom" constant="30" id="YKt-az-fcK"/>
+                            <constraint firstItem="wKB-Kl-vgB" firstAttribute="trailing" secondItem="Cw1-gR-9HU" secondAttribute="trailing" constant="16" id="dh0-2k-hai"/>
+                            <constraint firstItem="wKB-Kl-vgB" firstAttribute="trailing" secondItem="huk-f2-RUg" secondAttribute="trailing" constant="16" id="iKi-eA-Dxe"/>
+                            <constraint firstItem="aFg-hL-qi6" firstAttribute="top" secondItem="OPO-T5-z2g" secondAttribute="top" id="jdP-m4-1gK"/>
+                            <constraint firstItem="Fb1-5N-5RB" firstAttribute="leading" secondItem="wKB-Kl-vgB" secondAttribute="leading" constant="16" id="vdF-hC-fKC"/>
+                            <constraint firstItem="wKB-Kl-vgB" firstAttribute="trailing" secondItem="Oa1-nW-QMA" secondAttribute="trailing" constant="16" id="wb6-f1-bhj"/>
+                            <constraint firstItem="huk-f2-RUg" firstAttribute="leading" secondItem="wKB-Kl-vgB" secondAttribute="leading" constant="16" id="xYN-h5-5gh"/>
+                            <constraint firstItem="aFg-hL-qi6" firstAttribute="bottom" secondItem="wKB-Kl-vgB" secondAttribute="bottom" id="xqW-UQ-06z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wKB-Kl-vgB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gEO-zh-zHY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2192.753623188406" y="-1792.663043478261"/>
+        </scene>
         <!--Group Info Owner View Controller-->
         <scene sceneID="VDF-VZ-b45">
             <objects>
@@ -216,16 +332,65 @@
                     <view key="view" contentMode="scaleToFill" id="Yve-TN-ENG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lk0-Qh-wld">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AHD-Nl-Kyi">
+                                    <size key="itemSize" width="200" height="230"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ParticipantsCollectionViewCell" id="Rff-sk-4h0" customClass="ParticipantsCollectionViewCell" customModule="iRumi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="230"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="230"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="0wB-q7-l46">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJW-ss-EaB">
+                                                    <rect key="frame" x="0.0" y="208" width="200" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="kJW-ss-EaB" id="Kiw-bU-Wc9"/>
+                                            <outlet property="profileImageView" destination="0wB-q7-l46" id="8K5-BF-tev"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="HJm-HX-b4x" id="yYA-oA-Uye"/>
+                                    <outlet property="delegate" destination="HJm-HX-b4x" id="24X-eE-KrW"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pac-GY-18s"/>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="lk0-Qh-wld" id="MkX-H6-63k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KT6-o8-9Ix" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2193" y="-1041"/>
+            <point key="canvasLocation" x="2192.753623188406" y="-1041.0326086956522"/>
         </scene>
     </scenes>
     <resources>
-        <image name="group" width="512" height="512"/>
+        <image name="background-image" width="3672" height="2216"/>
+        <image name="girl" width="512" height="512"/>
+        <image name="group-2" width="512" height="512"/>
     </resources>
 </document>

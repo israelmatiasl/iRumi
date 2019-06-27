@@ -34,6 +34,8 @@
 		F03F93BA22C46D050084BFD2 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93B922C46D050084BFD2 /* Participant.swift */; };
 		F03F93BC22C46D840084BFD2 /* GroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93BB22C46D840084BFD2 /* GroupRequest.swift */; };
 		F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */; };
+		F03F93C022C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93BF22C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift */; };
+		F03F93C322C480490084BFD2 /* GroupCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C222C480490084BFD2 /* GroupCreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		F03F93B922C46D050084BFD2 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
 		F03F93BB22C46D840084BFD2 /* GroupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRequest.swift; sourceTree = "<group>"; };
 		F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoOwnerViewController.swift; sourceTree = "<group>"; };
+		F03F93BF22C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsCollectionViewCell.swift; sourceTree = "<group>"; };
+		F03F93C222C480490084BFD2 /* GroupCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,8 @@
 				F03F93B122C466250084BFD2 /* GroupsOwnerViewController.swift */,
 				F03F93B322C467780084BFD2 /* GroupsCollectionViewCell.swift */,
 				F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */,
+				F03F93BF22C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift */,
+				F03F93C222C480490084BFD2 /* GroupCreateViewController.swift */,
 			);
 			path = Owner;
 			sourceTree = "<group>";
@@ -373,6 +379,7 @@
 				F03F93BC22C46D840084BFD2 /* GroupRequest.swift in Sources */,
 				F03F939322C3EDDE0084BFD2 /* GenericPicker.swift in Sources */,
 				F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */,
+				F03F93C322C480490084BFD2 /* GroupCreateViewController.swift in Sources */,
 				F03F93AC22C4583B0084BFD2 /* TabBarOwnerViewController.swift in Sources */,
 				F03F93A422C453FE0084BFD2 /* LoginResponse.swift in Sources */,
 				F03F93B822C46CB20084BFD2 /* Group.swift in Sources */,
@@ -383,6 +390,7 @@
 				F03F93A022C453880084BFD2 /* LoginRequest.swift in Sources */,
 				F03F93A222C453BE0084BFD2 /* RegisterRequest.swift in Sources */,
 				F03F93B622C46C3D0084BFD2 /* GroupApi.swift in Sources */,
+				F03F93C022C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift in Sources */,
 				F034B30522C030480044951F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
