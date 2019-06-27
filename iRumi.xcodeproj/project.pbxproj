@@ -39,6 +39,8 @@
 		F03F93C522C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C422C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift */; };
 		F03F93C722C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C622C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift */; };
 		F03F93C922C4BB3E0084BFD2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C822C4BB3E0084BFD2 /* Task.swift */; };
+		F03F93CB22C4C47F0084BFD2 /* TaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93CA22C4C47F0084BFD2 /* TaskRequest.swift */; };
+		F03F93CD22C4C5B10084BFD2 /* TaskApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93CC22C4C5B10084BFD2 /* TaskApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		F03F93C422C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoRoomerViewController.swift; sourceTree = "<group>"; };
 		F03F93C622C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsRoomerCollectionViewCell.swift; sourceTree = "<group>"; };
 		F03F93C822C4BB3E0084BFD2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		F03F93CA22C4C47F0084BFD2 /* TaskRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRequest.swift; sourceTree = "<group>"; };
+		F03F93CC22C4C5B10084BFD2 /* TaskApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,7 @@
 				F03F939D22C451EA0084BFD2 /* Request */,
 				F03F939B22C451910084BFD2 /* AccountApi.swift */,
 				F03F93B522C46C3D0084BFD2 /* GroupApi.swift */,
+				F03F93CC22C4C5B10084BFD2 /* TaskApi.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				F03F939F22C453880084BFD2 /* LoginRequest.swift */,
 				F03F93A122C453BE0084BFD2 /* RegisterRequest.swift */,
 				F03F93BB22C46D840084BFD2 /* GroupRequest.swift */,
+				F03F93CA22C4C47F0084BFD2 /* TaskRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -389,7 +395,9 @@
 				F03F93C922C4BB3E0084BFD2 /* Task.swift in Sources */,
 				F03F93BC22C46D840084BFD2 /* GroupRequest.swift in Sources */,
 				F03F939322C3EDDE0084BFD2 /* GenericPicker.swift in Sources */,
+				F03F93CB22C4C47F0084BFD2 /* TaskRequest.swift in Sources */,
 				F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */,
+				F03F93CD22C4C5B10084BFD2 /* TaskApi.swift in Sources */,
 				F03F93C522C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift in Sources */,
 				F03F93C322C480490084BFD2 /* GroupCreateViewController.swift in Sources */,
 				F03F93AC22C4583B0084BFD2 /* TabBarOwnerViewController.swift in Sources */,

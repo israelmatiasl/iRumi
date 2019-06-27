@@ -1,5 +1,5 @@
 //
-//  Task.swift
+//  TaskRequest.swift
 //  iRumi
 //
 //  Created by Israel Matias on 6/27/19.
@@ -8,14 +8,10 @@
 
 import Foundation
 
-struct Task: Codable {
-    var taskId: String?
-    var groupName: String?
+struct TaskRequest {
+    var accountId: String?
+    var groupId: String?
     var title: String?
     var description: String?
-    var responsible: Array<String>?
     var status: String?
-    var startAt: Date?
-    var modifiedAt: Date?
-    var endsAt: Date?
 }
