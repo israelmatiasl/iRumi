@@ -41,6 +41,21 @@
 		F03F93C922C4BB3E0084BFD2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C822C4BB3E0084BFD2 /* Task.swift */; };
 		F03F93CB22C4C47F0084BFD2 /* TaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93CA22C4C47F0084BFD2 /* TaskRequest.swift */; };
 		F03F93CD22C4C5B10084BFD2 /* TaskApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93CC22C4C5B10084BFD2 /* TaskApi.swift */; };
+		F03F93CF22C4C9F20084BFD2 /* IncidenceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93CE22C4C9F20084BFD2 /* IncidenceApi.swift */; };
+		F03F93D122C4CA9D0084BFD2 /* IncidencesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93D022C4CA9D0084BFD2 /* IncidencesResponse.swift */; };
+		F03F93D322C4CAC80084BFD2 /* Incidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93D222C4CAC80084BFD2 /* Incidence.swift */; };
+		F03F93D522C4CB1B0084BFD2 /* ParticipantsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93D422C4CB1B0084BFD2 /* ParticipantsResponse.swift */; };
+		F03F93D722C4CB560084BFD2 /* GroupsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93D622C4CB560084BFD2 /* GroupsResponse.swift */; };
+		F03F93D922C4CBBB0084BFD2 /* IncidenceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93D822C4CBBB0084BFD2 /* IncidenceRequest.swift */; };
+		F03F93DB22C4CC3B0084BFD2 /* OwnerIncidenceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93DA22C4CC3B0084BFD2 /* OwnerIncidenceApi.swift */; };
+		F03F93DD22C4CCC40084BFD2 /* IncidenceUpdateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93DC22C4CCC40084BFD2 /* IncidenceUpdateRequest.swift */; };
+		F03F93DF22C4CDBA0084BFD2 /* OwnerIncidenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93DE22C4CDBA0084BFD2 /* OwnerIncidenceCell.swift */; };
+		F03F93E122C4D34A0084BFD2 /* OwnerIncidencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93E022C4D34A0084BFD2 /* OwnerIncidencesViewController.swift */; };
+		F03F93E322C4DEB70084BFD2 /* OwnerIncidenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93E222C4DEB70084BFD2 /* OwnerIncidenceViewController.swift */; };
+		F03F93E522C4EAF60084BFD2 /* IncidencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93E422C4EAF60084BFD2 /* IncidencesViewController.swift */; };
+		F03F93E722C4EBEE0084BFD2 /* IncidenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93E622C4EBEE0084BFD2 /* IncidenceViewController.swift */; };
+		F03F93E922C4EC500084BFD2 /* IncidenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93E822C4EC500084BFD2 /* IncidenceCell.swift */; };
+		F03F93EB22C4EE2C0084BFD2 /* CreateIncidenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93EA22C4EE2C0084BFD2 /* CreateIncidenceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +97,21 @@
 		F03F93C822C4BB3E0084BFD2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F03F93CA22C4C47F0084BFD2 /* TaskRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRequest.swift; sourceTree = "<group>"; };
 		F03F93CC22C4C5B10084BFD2 /* TaskApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskApi.swift; sourceTree = "<group>"; };
+		F03F93CE22C4C9F20084BFD2 /* IncidenceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidenceApi.swift; sourceTree = "<group>"; };
+		F03F93D022C4CA9D0084BFD2 /* IncidencesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidencesResponse.swift; sourceTree = "<group>"; };
+		F03F93D222C4CAC80084BFD2 /* Incidence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incidence.swift; sourceTree = "<group>"; };
+		F03F93D422C4CB1B0084BFD2 /* ParticipantsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsResponse.swift; sourceTree = "<group>"; };
+		F03F93D622C4CB560084BFD2 /* GroupsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsResponse.swift; sourceTree = "<group>"; };
+		F03F93D822C4CBBB0084BFD2 /* IncidenceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidenceRequest.swift; sourceTree = "<group>"; };
+		F03F93DA22C4CC3B0084BFD2 /* OwnerIncidenceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerIncidenceApi.swift; sourceTree = "<group>"; };
+		F03F93DC22C4CCC40084BFD2 /* IncidenceUpdateRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidenceUpdateRequest.swift; sourceTree = "<group>"; };
+		F03F93DE22C4CDBA0084BFD2 /* OwnerIncidenceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerIncidenceCell.swift; sourceTree = "<group>"; };
+		F03F93E022C4D34A0084BFD2 /* OwnerIncidencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerIncidencesViewController.swift; sourceTree = "<group>"; };
+		F03F93E222C4DEB70084BFD2 /* OwnerIncidenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerIncidenceViewController.swift; sourceTree = "<group>"; };
+		F03F93E422C4EAF60084BFD2 /* IncidencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidencesViewController.swift; sourceTree = "<group>"; };
+		F03F93E622C4EBEE0084BFD2 /* IncidenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidenceViewController.swift; sourceTree = "<group>"; };
+		F03F93E822C4EC500084BFD2 /* IncidenceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidenceCell.swift; sourceTree = "<group>"; };
+		F03F93EA22C4EE2C0084BFD2 /* CreateIncidenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIncidenceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +193,8 @@
 				F03F939B22C451910084BFD2 /* AccountApi.swift */,
 				F03F93B522C46C3D0084BFD2 /* GroupApi.swift */,
 				F03F93CC22C4C5B10084BFD2 /* TaskApi.swift */,
+				F03F93CE22C4C9F20084BFD2 /* IncidenceApi.swift */,
+				F03F93DA22C4CC3B0084BFD2 /* OwnerIncidenceApi.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -174,6 +206,7 @@
 				F03F93B722C46CB20084BFD2 /* Group.swift */,
 				F03F93B922C46D050084BFD2 /* Participant.swift */,
 				F03F93C822C4BB3E0084BFD2 /* Task.swift */,
+				F03F93D222C4CAC80084BFD2 /* Incidence.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,6 +248,8 @@
 				F03F93A122C453BE0084BFD2 /* RegisterRequest.swift */,
 				F03F93BB22C46D840084BFD2 /* GroupRequest.swift */,
 				F03F93CA22C4C47F0084BFD2 /* TaskRequest.swift */,
+				F03F93D822C4CBBB0084BFD2 /* IncidenceRequest.swift */,
+				F03F93DC22C4CCC40084BFD2 /* IncidenceUpdateRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -224,6 +259,9 @@
 			children = (
 				F03F93A322C453FE0084BFD2 /* LoginResponse.swift */,
 				F03F93A722C454CD0084BFD2 /* RegisterResponse.swift */,
+				F03F93D022C4CA9D0084BFD2 /* IncidencesResponse.swift */,
+				F03F93D422C4CB1B0084BFD2 /* ParticipantsResponse.swift */,
+				F03F93D622C4CB560084BFD2 /* GroupsResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -234,6 +272,10 @@
 				F03F93AD22C4584F0084BFD2 /* TabBarRoomerViewController.swift */,
 				F03F93C422C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift */,
 				F03F93C622C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift */,
+				F03F93E422C4EAF60084BFD2 /* IncidencesViewController.swift */,
+				F03F93E622C4EBEE0084BFD2 /* IncidenceViewController.swift */,
+				F03F93E822C4EC500084BFD2 /* IncidenceCell.swift */,
+				F03F93EA22C4EE2C0084BFD2 /* CreateIncidenceViewController.swift */,
 			);
 			path = Roomer;
 			sourceTree = "<group>";
@@ -247,6 +289,9 @@
 				F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */,
 				F03F93BF22C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift */,
 				F03F93C222C480490084BFD2 /* GroupCreateViewController.swift */,
+				F03F93DE22C4CDBA0084BFD2 /* OwnerIncidenceCell.swift */,
+				F03F93E022C4D34A0084BFD2 /* OwnerIncidencesViewController.swift */,
+				F03F93E222C4DEB70084BFD2 /* OwnerIncidenceViewController.swift */,
 			);
 			path = Owner;
 			sourceTree = "<group>";
@@ -387,30 +432,45 @@
 				F03F93B422C467780084BFD2 /* GroupsCollectionViewCell.swift in Sources */,
 				F03F93AE22C4584F0084BFD2 /* TabBarRoomerViewController.swift in Sources */,
 				F03F93B022C464CD0084BFD2 /* DefaultKeys.swift in Sources */,
+				F03F93EB22C4EE2C0084BFD2 /* CreateIncidenceViewController.swift in Sources */,
 				F034B30722C030480044951F /* ViewController.swift in Sources */,
+				F03F93D722C4CB560084BFD2 /* GroupsResponse.swift in Sources */,
+				F03F93E522C4EAF60084BFD2 /* IncidencesViewController.swift in Sources */,
 				F03F93A822C454CD0084BFD2 /* RegisterResponse.swift in Sources */,
 				F03F93BA22C46D050084BFD2 /* Participant.swift in Sources */,
+				F03F93E322C4DEB70084BFD2 /* OwnerIncidenceViewController.swift in Sources */,
 				F03F93C722C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift in Sources */,
 				F03F93A622C454860084BFD2 /* Profile.swift in Sources */,
 				F03F93C922C4BB3E0084BFD2 /* Task.swift in Sources */,
+				F03F93D322C4CAC80084BFD2 /* Incidence.swift in Sources */,
 				F03F93BC22C46D840084BFD2 /* GroupRequest.swift in Sources */,
 				F03F939322C3EDDE0084BFD2 /* GenericPicker.swift in Sources */,
 				F03F93CB22C4C47F0084BFD2 /* TaskRequest.swift in Sources */,
+				F03F93CF22C4C9F20084BFD2 /* IncidenceApi.swift in Sources */,
+				F03F93D122C4CA9D0084BFD2 /* IncidencesResponse.swift in Sources */,
 				F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */,
+				F03F93DD22C4CCC40084BFD2 /* IncidenceUpdateRequest.swift in Sources */,
+				F03F93DB22C4CC3B0084BFD2 /* OwnerIncidenceApi.swift in Sources */,
 				F03F93CD22C4C5B10084BFD2 /* TaskApi.swift in Sources */,
 				F03F93C522C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift in Sources */,
 				F03F93C322C480490084BFD2 /* GroupCreateViewController.swift in Sources */,
+				F03F93E922C4EC500084BFD2 /* IncidenceCell.swift in Sources */,
 				F03F93AC22C4583B0084BFD2 /* TabBarOwnerViewController.swift in Sources */,
 				F03F93A422C453FE0084BFD2 /* LoginResponse.swift in Sources */,
 				F03F93B822C46CB20084BFD2 /* Group.swift in Sources */,
+				F03F93D522C4CB1B0084BFD2 /* ParticipantsResponse.swift in Sources */,
 				F03F939722C3EF370084BFD2 /* SignUpViewController.swift in Sources */,
 				F03F93B222C466250084BFD2 /* GroupsOwnerViewController.swift in Sources */,
 				F03F939922C3EF660084BFD2 /* ChooseRoleViewController.swift in Sources */,
+				F03F93E122C4D34A0084BFD2 /* OwnerIncidencesViewController.swift in Sources */,
 				F03F939C22C451910084BFD2 /* AccountApi.swift in Sources */,
+				F03F93DF22C4CDBA0084BFD2 /* OwnerIncidenceCell.swift in Sources */,
 				F03F93A022C453880084BFD2 /* LoginRequest.swift in Sources */,
 				F03F93A222C453BE0084BFD2 /* RegisterRequest.swift in Sources */,
 				F03F93B622C46C3D0084BFD2 /* GroupApi.swift in Sources */,
 				F03F93C022C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift in Sources */,
+				F03F93E722C4EBEE0084BFD2 /* IncidenceViewController.swift in Sources */,
+				F03F93D922C4CBBB0084BFD2 /* IncidenceRequest.swift in Sources */,
 				F034B30522C030480044951F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
