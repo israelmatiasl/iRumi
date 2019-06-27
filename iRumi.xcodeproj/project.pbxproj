@@ -38,6 +38,7 @@
 		F03F93C322C480490084BFD2 /* GroupCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C222C480490084BFD2 /* GroupCreateViewController.swift */; };
 		F03F93C522C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C422C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift */; };
 		F03F93C722C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C622C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift */; };
+		F03F93C922C4BB3E0084BFD2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C822C4BB3E0084BFD2 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		F03F93C222C480490084BFD2 /* GroupCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCreateViewController.swift; sourceTree = "<group>"; };
 		F03F93C422C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoRoomerViewController.swift; sourceTree = "<group>"; };
 		F03F93C622C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsRoomerCollectionViewCell.swift; sourceTree = "<group>"; };
+		F03F93C822C4BB3E0084BFD2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				F03F93A522C454860084BFD2 /* Profile.swift */,
 				F03F93B722C46CB20084BFD2 /* Group.swift */,
 				F03F93B922C46D050084BFD2 /* Participant.swift */,
+				F03F93C822C4BB3E0084BFD2 /* Task.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				F03F93BA22C46D050084BFD2 /* Participant.swift in Sources */,
 				F03F93C722C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift in Sources */,
 				F03F93A622C454860084BFD2 /* Profile.swift in Sources */,
+				F03F93C922C4BB3E0084BFD2 /* Task.swift in Sources */,
 				F03F93BC22C46D840084BFD2 /* GroupRequest.swift in Sources */,
 				F03F939322C3EDDE0084BFD2 /* GenericPicker.swift in Sources */,
 				F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */,
