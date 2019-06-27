@@ -36,6 +36,8 @@
 		F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */; };
 		F03F93C022C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93BF22C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift */; };
 		F03F93C322C480490084BFD2 /* GroupCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C222C480490084BFD2 /* GroupCreateViewController.swift */; };
+		F03F93C522C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C422C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift */; };
+		F03F93C722C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F93C622C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		F03F93BD22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoOwnerViewController.swift; sourceTree = "<group>"; };
 		F03F93BF22C478CA0084BFD2 /* ParticipantsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsCollectionViewCell.swift; sourceTree = "<group>"; };
 		F03F93C222C480490084BFD2 /* GroupCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCreateViewController.swift; sourceTree = "<group>"; };
+		F03F93C422C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoRoomerViewController.swift; sourceTree = "<group>"; };
+		F03F93C622C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsRoomerCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				F03F93AD22C4584F0084BFD2 /* TabBarRoomerViewController.swift */,
+				F03F93C422C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift */,
+				F03F93C622C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift */,
 			);
 			path = Roomer;
 			sourceTree = "<group>";
@@ -375,10 +381,12 @@
 				F034B30722C030480044951F /* ViewController.swift in Sources */,
 				F03F93A822C454CD0084BFD2 /* RegisterResponse.swift in Sources */,
 				F03F93BA22C46D050084BFD2 /* Participant.swift in Sources */,
+				F03F93C722C4A6760084BFD2 /* ParticipantsRoomerCollectionViewCell.swift in Sources */,
 				F03F93A622C454860084BFD2 /* Profile.swift in Sources */,
 				F03F93BC22C46D840084BFD2 /* GroupRequest.swift in Sources */,
 				F03F939322C3EDDE0084BFD2 /* GenericPicker.swift in Sources */,
 				F03F93BE22C4709C0084BFD2 /* GroupInfoOwnerViewController.swift in Sources */,
+				F03F93C522C4A32B0084BFD2 /* GroupInfoRoomerViewController.swift in Sources */,
 				F03F93C322C480490084BFD2 /* GroupCreateViewController.swift in Sources */,
 				F03F93AC22C4583B0084BFD2 /* TabBarOwnerViewController.swift in Sources */,
 				F03F93A422C453FE0084BFD2 /* LoginResponse.swift in Sources */,

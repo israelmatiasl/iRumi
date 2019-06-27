@@ -131,7 +131,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7Q-7u-Ygz">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="60"/>
-                                        <color key="backgroundColor" red="0.1153594481" green="0.27168172369999999" blue="0.56180306160000004" alpha="0.78957084760273977" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.11372549019607843" green="0.27058823529411763" blue="0.5607843137254902" alpha="0.78957084760273977" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="oBk-yd-tfz"/>
                                         </constraints>
