@@ -89,10 +89,10 @@ class RoomsViewController: UICollectionViewController {
         }
     }
     
-    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        currentRow = indexPath.item
-        performSegue(withIdentifier: "showRoom", sender: self)
-    }
+//    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//        currentRow = indexPath.item
+//        performSegue(withIdentifier: "showRoom", sender: self)
+//    }
     
 }
 

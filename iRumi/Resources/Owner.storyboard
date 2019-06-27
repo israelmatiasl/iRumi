@@ -802,15 +802,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="I8N-iG-1fY">
-                                <rect key="frame" x="87" y="141" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="I8N-iG-1fY">
+                                <rect key="frame" x="87" y="101" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="t4N-5z-o0t"/>
                                 </constraints>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c9q-7z-MlF">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c9q-7z-MlF">
                                 <rect key="frame" x="0.0" y="57" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem systemItem="trash" id="fbZ-9g-6ny">
                                         <connections>
@@ -819,8 +818,8 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahG-tp-qhq">
-                                <rect key="frame" x="186" y="314" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahG-tp-qhq">
+                                <rect key="frame" x="186" y="274" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -830,9 +829,12 @@
                         <constraints>
                             <constraint firstItem="I8N-iG-1fY" firstAttribute="leading" secondItem="9tA-D3-EEf" secondAttribute="leading" constant="87" id="2ET-DW-RkH"/>
                             <constraint firstItem="ahG-tp-qhq" firstAttribute="top" secondItem="I8N-iG-1fY" secondAttribute="bottom" constant="45" id="4Kv-wz-qlT"/>
+                            <constraint firstItem="I8N-iG-1fY" firstAttribute="top" secondItem="c9q-7z-MlF" secondAttribute="bottom" constant="40" id="9jO-SJ-MB6"/>
                             <constraint firstItem="I8N-iG-1fY" firstAttribute="top" secondItem="9tA-D3-EEf" secondAttribute="top" constant="37" id="DPt-SF-u5J"/>
                             <constraint firstItem="I8N-iG-1fY" firstAttribute="centerX" secondItem="lca-j1-fDr" secondAttribute="centerX" id="Hdg-Ol-HhV"/>
+                            <constraint firstItem="c9q-7z-MlF" firstAttribute="leading" secondItem="lca-j1-fDr" secondAttribute="leading" id="UQF-g0-fVm"/>
                             <constraint firstItem="I8N-iG-1fY" firstAttribute="centerX" secondItem="ahG-tp-qhq" secondAttribute="centerX" id="Uy1-pQ-xlw"/>
+                            <constraint firstItem="c9q-7z-MlF" firstAttribute="centerX" secondItem="I8N-iG-1fY" secondAttribute="centerX" id="Zdc-bu-4WP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9tA-D3-EEf"/>
                     </view>
@@ -848,7 +850,7 @@
         <scene sceneID="6DH-lV-GTs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ux7-eb-4v5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="sec-P1-QMv"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="icons8-cama-filled-50" id="sec-P1-QMv"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NnB-Cz-nOs">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
@@ -868,6 +870,7 @@
         <image name="checkFalse" width="64" height="64"/>
         <image name="girl" width="512" height="512"/>
         <image name="group-2" width="512" height="512"/>
+        <image name="icons8-cama-filled-50" width="50" height="50"/>
         <image name="images" width="225" height="225"/>
         <image name="task3" width="512" height="512"/>
         <image name="tool" width="64" height="64"/>
