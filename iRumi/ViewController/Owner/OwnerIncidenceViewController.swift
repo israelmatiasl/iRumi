@@ -65,9 +65,9 @@ class OwnerIncidenceViewController: UIViewController {
     }
     
     func updateImage(for button: UIButton) {
-        let name = isCheck ?
-            "checkTrue" : "checkFalse"
-        let image = UIImage(named: name)
+//        let name = isCheck ?
+//            "checkTrue" : "checkFalse"
+//        let image = UIImage(named: name)
         //imageButton.setBackgroundImage(image, for: UIControl.State.normal)
     }
 }
