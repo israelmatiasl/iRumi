@@ -17,7 +17,7 @@
 		6096EA4E22C5132A00750108 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6096EA4D22C5132A00750108 /* RoomViewController.swift */; };
 		6096EA5122C5133600750108 /* RoomRoomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6096EA4F22C5133600750108 /* RoomRoomerViewController.swift */; };
 		6096EA5222C5133600750108 /* RoomsRoomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6096EA5022C5133600750108 /* RoomsRoomerViewController.swift */; };
-		83E9EFEA22C561B10015FF70 /* OwnerTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E9EFE922C561B00015FF70 /* OwnerTasksViewController.swift */; };
+		C84DBDC322C65611008CD612 /* OwnerTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DBDC222C65611008CD612 /* OwnerTasksViewController.swift */; };
 		F034B30522C030480044951F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034B30422C030480044951F /* AppDelegate.swift */; };
 		F034B30722C030480044951F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034B30622C030480044951F /* ViewController.swift */; };
 		F034B30A22C030480044951F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F034B30822C030480044951F /* Main.storyboard */; };
@@ -80,8 +80,8 @@
 		6096EA4F22C5133600750108 /* RoomRoomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomRoomerViewController.swift; sourceTree = "<group>"; };
 		6096EA5022C5133600750108 /* RoomsRoomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsRoomerViewController.swift; sourceTree = "<group>"; };
 		6253C2DD3C49C9E0195F3802 /* Pods-iRumi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRumi.release.xcconfig"; path = "Target Support Files/Pods-iRumi/Pods-iRumi.release.xcconfig"; sourceTree = "<group>"; };
-		83E9EFE922C561B00015FF70 /* OwnerTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerTasksViewController.swift; sourceTree = "<group>"; };
 		BE5786A1975F96A6E1A60BDC /* Pods_iRumi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRumi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84DBDC222C65611008CD612 /* OwnerTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerTasksViewController.swift; sourceTree = "<group>"; };
 		F034B30122C030480044951F /* iRumi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRumi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F034B30422C030480044951F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F034B30622C030480044951F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -321,7 +321,7 @@
 				F03F93DE22C4CDBA0084BFD2 /* OwnerIncidenceCell.swift */,
 				F03F93E022C4D34A0084BFD2 /* OwnerIncidencesViewController.swift */,
 				F03F93E222C4DEB70084BFD2 /* OwnerIncidenceViewController.swift */,
-				83E9EFE922C561B00015FF70 /* OwnerTasksViewController.swift */,
+				C84DBDC222C65611008CD612 /* OwnerTasksViewController.swift */,
 			);
 			path = Owner;
 			sourceTree = "<group>";
@@ -501,7 +501,7 @@
 				F03F93B222C466250084BFD2 /* GroupsOwnerViewController.swift in Sources */,
 				F03F939922C3EF660084BFD2 /* ChooseRoleViewController.swift in Sources */,
 				F03F93E122C4D34A0084BFD2 /* OwnerIncidencesViewController.swift in Sources */,
-				83E9EFEA22C561B10015FF70 /* OwnerTasksViewController.swift in Sources */,
+				C84DBDC322C65611008CD612 /* OwnerTasksViewController.swift in Sources */,
 				F03F939C22C451910084BFD2 /* AccountApi.swift in Sources */,
 				F03F93DF22C4CDBA0084BFD2 /* OwnerIncidenceCell.swift in Sources */,
 				F03F93A022C453880084BFD2 /* LoginRequest.swift in Sources */,
@@ -659,7 +659,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN83CAA4H3;
+				DEVELOPMENT_TEAM = 8468U436K8;
 				INFOPLIST_FILE = iRumi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -678,7 +678,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN83CAA4H3;
+				DEVELOPMENT_TEAM = 8468U436K8;
 				INFOPLIST_FILE = iRumi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
