@@ -34,7 +34,7 @@
         <scene sceneID="M8e-qR-tQ0">
             <objects>
                 <navigationController id="DaA-K8-zEt" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Incidencias" id="TNg-OZ-20X"/>
+                    <tabBarItem key="tabBarItem" title="Incidencias" image="icons8-scorecard-24" id="TNg-OZ-20X"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="38C-yb-noj">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -51,7 +51,7 @@
         <scene sceneID="Kxq-r9-TeB">
             <objects>
                 <navigationController id="q5c-yV-bi4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Tareas" id="UP7-ed-5gB"/>
+                    <tabBarItem key="tabBarItem" title="Tareas" image="icons8-task-completed-24" id="UP7-ed-5gB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ue7-gB-mQV">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -84,7 +84,7 @@
         <scene sceneID="Dmz-H1-BeJ">
             <objects>
                 <navigationController id="mnf-Zc-Bmj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Grupo" id="6Sb-B6-jhl"/>
+                    <tabBarItem key="tabBarItem" title="Grupo" image="multiple-users-silhouette" id="6Sb-B6-jhl"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cr1-Q8-RHF">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -399,15 +399,15 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Precio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEX-RZ-Dx7">
                                             <rect key="frame" x="305" y="55" width="66" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="66" id="fEB-VA-K30"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Título" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwj-Gj-Mli">
-                                            <rect key="frame" x="113" y="20" width="261" height="30"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="30" id="vkp-2u-Rnr"/>
-                                            </constraints>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Precio:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6W-RB-duM">
+                                            <rect key="frame" x="213" y="58" width="53" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -415,22 +415,17 @@
                                     </subviews>
                                 </view>
                                 <constraints>
-                                    <constraint firstItem="Uwj-Gj-Mli" firstAttribute="top" secondItem="CMW-EJ-50u" secondAttribute="topMargin" constant="12" id="38R-oU-1BN"/>
-                                    <constraint firstItem="Uwj-Gj-Mli" firstAttribute="leading" secondItem="Az1-0g-6c6" secondAttribute="trailing" constant="12" id="9mn-O6-hn2"/>
                                     <constraint firstAttribute="bottomMargin" secondItem="Az1-0g-6c6" secondAttribute="bottom" constant="12" id="HOG-mV-RBY"/>
-                                    <constraint firstItem="Uwj-Gj-Mli" firstAttribute="top" secondItem="HEX-RZ-Dx7" secondAttribute="bottom" constant="-59" id="O55-BR-7Hn"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="Az1-0g-6c6" secondAttribute="trailing" constant="305" id="PF3-Nt-a9W"/>
-                                    <constraint firstItem="Uwj-Gj-Mli" firstAttribute="leading" secondItem="Az1-0g-6c6" secondAttribute="trailing" constant="12" id="QdS-iA-rB4"/>
-                                    <constraint firstItem="Uwj-Gj-Mli" firstAttribute="top" secondItem="CMW-EJ-50u" secondAttribute="topMargin" constant="12" id="UJU-36-Vu0"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="Uwj-Gj-Mli" secondAttribute="trailing" constant="32" id="Uby-T5-RNL"/>
+                                    <constraint firstItem="HEX-RZ-Dx7" firstAttribute="bottom" secondItem="Az1-0g-6c6" secondAttribute="bottom" id="RJm-LH-uqF"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="HEX-RZ-Dx7" secondAttribute="trailing" constant="33" id="Y2E-Af-HNn"/>
                                     <constraint firstItem="Az1-0g-6c6" firstAttribute="top" secondItem="CMW-EJ-50u" secondAttribute="topMargin" constant="12" id="hzB-iK-wx2"/>
                                     <constraint firstItem="Az1-0g-6c6" firstAttribute="leading" secondItem="CMW-EJ-50u" secondAttribute="leadingMargin" constant="2" id="jn0-ZW-tkJ"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="Uwj-Gj-Mli" secondAttribute="trailing" constant="32" id="kc2-Sk-Ze3"/>
+                                    <constraint firstItem="HEX-RZ-Dx7" firstAttribute="leading" secondItem="k6W-RB-duM" secondAttribute="trailing" constant="39" id="w9b-th-P7f"/>
+                                    <constraint firstItem="k6W-RB-duM" firstAttribute="bottom" secondItem="HEX-RZ-Dx7" secondAttribute="bottom" id="z4h-RI-auM"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="logoImageView" destination="Az1-0g-6c6" id="jxY-BN-0QB"/>
-                                    <outlet property="nameLabel" destination="Uwj-Gj-Mli" id="OjH-TE-NIm"/>
                                     <outlet property="priceLabel" destination="HEX-RZ-Dx7" id="d9B-lL-zHm"/>
                                 </connections>
                             </collectionViewCell>
@@ -450,7 +445,7 @@
         <scene sceneID="dGe-5U-XBS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OF3-Pv-eLl" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="8yk-Cq-iQH"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="icons8-bed-30" id="8yk-Cq-iQH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tqc-aI-TnQ">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
@@ -469,8 +464,12 @@
     <resources>
         <image name="add" width="32" height="32"/>
         <image name="boy" width="512" height="512"/>
-        <image name="images" width="16" height="16"/>
+        <image name="icons8-bed-30" width="30" height="30"/>
+        <image name="icons8-scorecard-24" width="24" height="24"/>
+        <image name="icons8-task-completed-24" width="24" height="24"/>
+        <image name="images" width="225" height="225"/>
         <image name="info" width="30" height="30"/>
+        <image name="multiple-users-silhouette" width="24" height="24"/>
         <image name="tool" width="64" height="64"/>
     </resources>
 </document>

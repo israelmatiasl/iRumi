@@ -22,11 +22,11 @@ class IncidencesViewController: UICollectionViewController {
     //aca se ingresa el id del grupo
     var idGroup = ""
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        idGroup = getGroupId()
-    }
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+////        getIncidencesByGroup()
+//        idGroup = getGroupId()
+//    }
 
 
     override func viewWillAppear(_ animated: Bool) {

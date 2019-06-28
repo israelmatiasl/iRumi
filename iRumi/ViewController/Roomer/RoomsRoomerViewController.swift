@@ -23,7 +23,7 @@ class RoomRoomerCell: UICollectionViewCell {
         //            fromUrlString: source.urlToLogo,
         //            withDefaultImage: "no-image-available",
         //            withErrorImage: "no-image-available")
-        nameLabel.text = room.roomId
+//        nameLabel.text = room.roomId
         priceLabel.text = String(room.price)
     }
 }
